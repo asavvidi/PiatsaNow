@@ -28,7 +28,9 @@ const Cart = () => {
         ))}
       </ul>
       <div className="mt-4 flex items-center gap-4">
-        <Button type="primary">Order now</Button>
+        <Button type="primary" to="/order/new">
+          Order now
+        </Button>
         <Button type="secondary" onClick={() => dispatch(clearCart(getCart))}>
           Clear set
         </Button>

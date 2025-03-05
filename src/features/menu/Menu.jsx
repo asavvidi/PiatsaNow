@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { fakeData } from "./fakeData";
 import MenuItem from "./MenuItem.jsx";
-import getMenu from "../../services/apiMenu.js";
+import { getMenu } from "../../services/apiMenu.js";
 import { useLoaderData } from "react-router-dom";
-import { useSelector } from "react-redux";
 const Menu = () => {
   const categories = [
     "Sandwiches",

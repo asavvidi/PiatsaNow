@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Button = ({ children, type, disabled, to, onClick }) => {
   const base =
     "text-sm  transition-all duration-300 bg-yellow-400 border-none focus:ring-2 focus:ring-yellow-300 focus:bg-yellow-400 disabled:cursor-not-allowed cursor-pointer focus:outline-none font-semibold hover:bg-yellow-300 text-stone-800 focus:ring-offset-2 rounded-full ";
